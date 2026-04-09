@@ -7,11 +7,11 @@ const GTM_ID = "GTM-5MS4Q86R";
 export const metadata: Metadata = {
   title: "Rory Oliver — Fractional CTO",
   description:
-    "Fractional CTO and technical leadership for ambitious startups and scale-ups. Strategy, architecture, and engineering excellence — without the full-time overhead.",
+    "Fractional CTO for growing businesses. Senior technology leadership, AI strategy, and engineering excellence — on a flexible, fractional basis aligned to your commercial outcomes.",
   openGraph: {
     title: "Rory Oliver — Fractional CTO",
     description:
-      "Fractional CTO and technical leadership for ambitious startups and scale-ups.",
+      "Fractional CTO for growing businesses. Senior technology leadership, AI strategy, and engineering excellence — aligned to your commercial outcomes.",
     url: "https://roryoliver.com",
     siteName: "Rory Oliver",
     type: "website",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rory Oliver — Fractional CTO",
     description:
-      "Fractional CTO and technical leadership for ambitious startups and scale-ups.",
+      "Fractional CTO for growing businesses. Senior technology leadership, AI strategy, and engineering excellence — aligned to your commercial outcomes.",
   },
   robots: { index: true, follow: true },
 };
