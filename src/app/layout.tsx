@@ -58,7 +58,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col noise-overlay grid-pattern">
+      <body>
         {/* Google Tag Manager (noscript fallback) */}
         <noscript>
           <iframe
