@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" fill="#0B0C0E"/>
+  <text x="32" y="42" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="-1.2" fill="#F7F6F2">RO</text>
+  <path d="M46 46 L49 49 L55 43" stroke="#3B6FE3" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+</svg>

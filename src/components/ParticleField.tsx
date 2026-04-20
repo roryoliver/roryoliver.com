@@ -24,8 +24,8 @@ export default function ParticleField() {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    const STAR_COUNT = 350;
-    const COLORS = ["#ffffff", "#e2d6ff", "#c4b5fd", "#a78bfa", "#818cf8"];
+    const STAR_COUNT = 320;
+    const COLORS = ["#ffffff", "#E0EBFF", "#B8CFFF", "#7BA4F5", "#3B6FE3"];
 
     function resize() {
       const dpr = window.devicePixelRatio || 1;
@@ -148,18 +148,6 @@ export default function ParticleField() {
   }, []);
 
   return (
-    <canvas
-      ref={canvasRef}
-      aria-hidden="true"
-      style={{
-        position: "fixed",
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: "100%",
-        zIndex: 1,
-        pointerEvents: "none",
-      }}
-    />
+    <canvas ref={canvasRef} id="particles" aria-hidden="true" />
   );
 }
