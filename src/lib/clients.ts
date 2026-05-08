@@ -1,4 +1,3 @@
-import "server-only";
 import { getRedis } from "./redis";
 
 export type ClientConfig = {
@@ -10,12 +9,12 @@ export type ClientConfig = {
   brandColor?: string;
 };
 
-const SEED_CLIENTS: Record<string, ClientConfig> = {
+export const SEED_CLIENTS: Record<string, ClientConfig> = {
   tra: {
     slug: "tra",
     displayName: "The Radiology Academy",
     jiraProjectKey: "TRA",
-    allowedEmails: ["i@roryoliver.com"],
+    allowedEmails: ["i@roryoliver.com", "skarparisyiannis@gmail.com"],
   },
 };
 

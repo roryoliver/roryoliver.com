@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "jira:smoke": "tsx --env-file=.env.local scripts/jira-smoke.ts"
+    "jira:smoke": "tsx --env-file=.env.local --env-file-if-exists=.env.development.local scripts/jira-smoke.ts",
+    "clients:seed": "tsx --env-file=.env.local --env-file-if-exists=.env.development.local scripts/clients-seed.ts"
   },
   "dependencies": {
     "@auth/upstash-redis-adapter": "^2.11.2",
